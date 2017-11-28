@@ -109,15 +109,6 @@
     "radix": 2,                      // http://eslint.org/docs/rules/radix
     "vars-on-top": 2,                // http://eslint.org/docs/rules/vars-on-top
     "yoda": 2,                       // http://eslint.org/docs/rules/yoda
-
-    /**
-     * Style
-     */
-    "indent": [
-      2,
-      4,
-      { "SwitchCase": 1 }
-    ],                              // http://eslint.org/docs/rules/indent
     "brace-style": [
       2,
       "1tbs", {

@@ -1,5 +1,12 @@
-if (process.env.NODE_ENV === 'production') {
-    module.exports = require('./configureStore.prod')
-} else {
-    module.exports = require('./configureStore.dev')
+import { applyMiddleware, createStore } from 'redux'
+import logger from 'redux-logger'
+import rootReducer from '../Reducers'
+
+
+export function configureStore(initialState) {
+    return createStore(
+        rootReducer,
+        initialState,
+        applyMiddleware(logger)
+    )
 }

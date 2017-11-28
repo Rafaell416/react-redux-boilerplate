@@ -1,8 +1,3 @@
-import * as types from './types'
+export const firsAction = () =>({
 
-export function filterTable(filter) {
-    return {
-        type: types.FILTER,
-        filter
-    }
-}
+})
