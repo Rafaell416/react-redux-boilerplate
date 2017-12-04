@@ -1,7 +1,7 @@
 {
-  "name": "gsa-ingenieria-frontend",
+  "name": "react-redux-boilderplate",
   "version": "1.0.0",
-  "description": "frontend app for gsa ingenieria using react and redux based on a @Jean-Pierre Sierens's boilerplate",
+  "description": "getting started code for react redux projects",
   "main": "index.js",
   "scripts": {
     "test": "",
